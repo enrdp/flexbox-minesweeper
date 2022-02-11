@@ -1,0 +1,100 @@
+html {
+    height: 100%;
+  }
+body{
+    background-color: black;
+    display: flex;
+    max-width: 100%;
+    min-height: 100%;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding:0;
+    }
+    .box{
+    border-style: solid;
+    border-color: lightgrey;
+    border-width: 10px 0px 10px 10px;
+    }
+.container{
+    display: flex;
+    border: 10px solid gray;
+    border-bottom: 10px solid white;
+    border-right: 10px solid white;
+    max-width: 400px;
+    flex-wrap: wrap;
+}
+.container div{
+    width: 50px;
+    height: 50px;
+    background-color: lightgray;
+    border: 1px solid white;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+div.dash{
+    border-style: dotted;
+    border-color: black;
+    border-width: 0px 3px 3px 0px;
+    background-color: lightgray;
+}
+.blue {
+    color: blue;
+}
+.red{
+    color: red;
+}
+.green{
+    color: green;
+}
+div{
+    font-size: 25px;
+    font-family: 'Press Start 2P', cursive;
+}
+.hover_block span{
+    display: none;
+}
+/*----------------------- HOVER -----------------------------*/
+.hover_block:hover span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 47px;
+    background-color: lightgray;
+}
+.hover_block:hover{
+    border-style: dotted;
+    border-color: black;
+    border-width: 0px 3px 3px 0px;
+}
+/*---------------------------END HOVER ------------------------*/
+div.background{
+    background-color: lightgray;
+}
+div.block { 
+    border-style: solid;
+    border-color: black;
+    border-width: 0px 3px 3px 0px;
+    -webkit-box-shadow: inset 3px 3px 0px 0px #FFFFFF, inset -3px -3px 0px 0px #8A8A8A;
+    -moz-box-shadow: inset 3px 3px 0px 0px #FFFFFF, inset -3px -3px 0px 0px #8A8A8A;
+    -o-box-shadow: inset 3px 3px 0px 0px #FFFFFF, inset -3px -3px 0px 0px #8A8A8A;
+     box-shadow: inset 3px 3px 0px 0px #FFFFFF, inset -3px -3px 0px 0px #8A8A8A;
+}
+div.dashed{
+    border-style: dotted;
+    border-color: black;
+    border-width: 3px 3px 3px 0px;
+}
+div.bomb3{
+    border-style: dotted;
+    border-color: black;
+    border-width: 0px 3px 3px 0px;
+}
+div.right{
+    border-style: dotted;
+    border-color: black;
+    border-width: 0px 3px 0px 0px;
+}
